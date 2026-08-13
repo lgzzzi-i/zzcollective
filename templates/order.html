@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+    {% block title %}Orders | ZZ Collective{%endblock%}
+    {%block content %}
+<h1>Place an Order</h1>
+<form method = "Post" action="{{url_for ('order')}}">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br>
+
+    <label for="contact">Email or Phone#:</label><br>
+    <input type="text" id="contact" name="contact" required><br>
+
+    <label for="items">Items:</label><br>
+    <input type="text" id="items" name="items" required><br>
+  
+    <label for="venmo_account">Venmo Account:</label><br>
+    <input type="text" id="venmo_account" name="venmo_account" required><br>
+
+    <button type="submit">Submit Order</button><br>
+</form>
+{% endblock %}

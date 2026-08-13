@@ -1,0 +1,26 @@
+@font-face {
+    font-family:"redactions";
+    src: url("fonts/Redaction35-Regular.otf") format("opentype");
+}
+body {
+    font-family: "redactions", system-ui, sans-serif;
+    max-width: 900px;
+    margin: 0 auto; 
+    padding: 2rem;
+    color: #222;
+}
+nav a {
+    font-family: "redactions", system-ui, sans-serif;
+    margin-right: 4rem;
+    text-decoration: none;
+    color: 
+    #065425;
+   }
+h1, h2, .logo {
+    font-family: "Press Start 2P", system-ui, sans-serif;
+    }
+
+html{
+    scrollbar-color: #d1d2d1 #183920;
+    scrollbar-width: auto;
+}

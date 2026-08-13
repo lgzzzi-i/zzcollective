@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block title %}Order #{{ order_id }} {% endblock %}
+{%block content %}
+    <h1>Thanks {{ name}}!</h1>
+    <p>Order #{{ order_id}}: {{items}}</p>
+    <p>Venmo Account: {{ venmo_account }}</p><br>
+    <p>We'll request payment via Venmo shortly. Your order will be shipped once payment is received.</p>
+   {% endblock %}
