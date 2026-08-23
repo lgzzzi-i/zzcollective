@@ -11,13 +11,16 @@
 </head>
 <body>
     <nav>
-        <a href="{{ url_for ('home') }}">Home</a>
-        <a href="{{ url_for ('about') }}">About</a> 
-        <a href="{{ url_for ('products') }}">Products</a>
-        <a href="{{ url_for ('order') }}">Order</a>
+        <a href="{{ url_for ('home') }}">home</a>
+        <a href="{{ url_for ('products') }}">products</a>
+        <a href="{{ url_for ('order') }}">order</a>
+        <a href="{{ url_for ('about') }}">about</a> 
     </nav>
     <main>
         {% block content %}{% endblock %}
     </main>
+    <footer>
+        <p>&copy; 2026 ZZ Collective</p>
+    </footer>
 </body>
 </html>

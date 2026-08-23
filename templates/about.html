@@ -1,6 +1,12 @@
 {% extends "base.html" %}
    {% block title %}About | ZZ COLLECTIVE {% endblock %}
    {% block content %}
-     <h1>About</h1>
-     <p>sentences about ZZ COLLECTIVE.</p>
-   {% endblock %}
+    <h2>About</h2>
+    <p1>Hey! </p1>
+    <p1>I am a college student with a home gym dream and a financing problem: hold prices skyrocket past hundreds just for basic sets. So, I put my years of woodworking classes to test, dug into my favorite piles of scrap wood in a friends garage, and emerged with ZZ Collective.</p1>
+    <p1>My hope is to provide my communities with low-cost holds---$5-$7 a piece--to support visions bigger than my own. We are currently in the process of fabricating for our first inventory stock. Until then, sign up for our email list, follow us on Instagram, and hold tight until drop-day!</p1>
+    <div class="overlay-wrap">
+      <img src="{{ url_for('static', filename='images/me_climbing.jpg') }}" alt="Founder climbing" class="me_climbing">
+      <img src="{{ url_for('static', filename='images/me_image.jpg') }}" alt="Founder profile image" class="me_image">
+    </div>
+     {% endblock %}

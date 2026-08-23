@@ -7,20 +7,116 @@ body {
     max-width: 900px;
     margin: 0 auto; 
     padding: 2rem;
-    color: #222;
+    color: #ddd;
+    background: #000000;
 }
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  width: fit-content;
+  margin: 2rem auto;
+  padding: .4rem 3rem;
+  background: #ddd;
+  border-radius: 999px;
+}
+
 nav a {
-    font-family: "redactions", system-ui, sans-serif;
-    margin-right: 4rem;
-    text-decoration: none;
-    color: 
-    #065425;
-   }
-h1, h2, .logo {
+  text-decoration: none;
+  color: #183920;
+  font-family: "redactions", system-ui, sans-serif;
+  font-size: 1.1rem;
+}
+
+h1 {
+    font-family: "Press Start 2P", system-ui, sans-serif;
+    text-align: center;
+    margin-top: 4rem;
+    padding: 2rem;
+}
+
+h2, .logo {
     font-family: "Press Start 2P", system-ui, sans-serif;
     }
 
 html{
     scrollbar-color: #d1d2d1 #183920;
     scrollbar-width: auto;
+}
+footer {
+    text-align: left;
+    margin-top: 4rem;
+    padding: 2rem 0;
+    border-top: 1px solid #ddd;
+    background: #183920;
+}
+footer p {
+  font-size: 0.85rem;
+  color: #ddd;
+  margin-left: 2rem;
+}
+
+p1 {
+    display: block;
+    width: 55%;
+    text-align: left;
+    margin-top: 1rem;
+}
+
+p2 {
+    display: inline-block;
+    width: 55%;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.bw-image {
+    display: inline-block;
+    max-width: 300px;
+    border-radius: 25px 80px 25px 80px;
+    flex-shrink: 0;
+}
+
+.side-by-side {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.explore-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    border-radius: 999px;
+    padding: 1rem 2rem;
+    margin: 2rem auto;
+    background: #ddd;
+    margin-top: 4rem;
+
+    font-size: 1.2rem;
+    color: #183920;
+    text-decoration: none;
+}
+
+.image-overlay-wrap {
+  position: relative;
+  width: fit-content;
+}
+
+.me_climbing {
+  display: block;
+  width: 300px;
+  height: auto;
+}
+
+.me_image {
+  position: absolute;
+  bottom: -60px;
+  right: -60px;
+  width: 200px;
+  height: auto;
 }

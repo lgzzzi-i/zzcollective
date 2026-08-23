@@ -2,5 +2,9 @@
    {% block title %}ZZ Collective{% endblock %}
    {% block content %}
      <h1>ZZ Collective</h1>
-     <p>affordable climbing holds.</p>
+    <div class="side-by-side"> 
+     <p2>Wooden climbing holds with fine sanding, finer price.</p2>
+     <img src="{{url_for('static', filename='images/bwholds.jpeg')}}" alt="Description of image" class="bw-image">
+    </div>
+    <a href="{{url_for ('products')}}" class="explore-button">explore our holds</a>
    {% endblock %}

@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
     {% block title %}Orders | ZZ Collective{%endblock%}
     {%block content %}
-<h1>Place an Order</h1>
+<h2>Place an Order</h2>
 <form method = "Post" action="{{url_for ('order')}}">
     <label for="name">Name:</label><br>
     <input type="text" id="name" name="name" required><br>
