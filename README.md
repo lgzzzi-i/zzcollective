@@ -1,4 +1,12 @@
 Originally coded 2026 <br>
-My first attempt at some web development for my informal climbing hold business selling affordable holds and small hang boards out of scrap wood. <br>
-In progress as of: August 2026<br>
-Next steps: encryption for user's contact and payment information, product images, streamlined UX to view and pay for items in one space, item cart, brand logo, modern UI
+
+Web development, UI, UX
+
+In progress as of: September 2026<br>
+
+Website for climbing brand producing affordable wooden holds and other products.
+
+Next steps: encryption for user's contact and payment information, streamlined UX to view and pay for items in one space, item cart, brand logo, modern UI
+
+Check out the link here! 
+https://zzcollective.onrender.com
