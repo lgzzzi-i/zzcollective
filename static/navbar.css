@@ -1,0 +1,61 @@
+@font-face {
+    font-family:"redactions";
+    src: url("fonts/Redaction35-Regular.otf") format("opentype");
+}
+
+.container{
+    background: #183920;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav{
+    background: #183920;
+    border-radius: 50px;
+    padding: 10px;
+    box-shadow: 0 25px 20px -20px rgba(252, 252, 252, 0.4)
+
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 13px 35px;
+    margin: 10px
+    font-size: 18px;
+    font-weight: 500;
+    color: #ddd;
+    cursor: pointer;
+
+}
+
+nav ul li::after{
+    content: '';
+}
+/*
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.4rem 3rem;
+  background: #183920;
+  border-radius: 999px;
+  width: 75vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ddd;
+  font-family: "redactions", system-ui, sans-serif;
+  font-size: 1.1rem;
+}
+
+
