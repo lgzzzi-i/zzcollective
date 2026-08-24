@@ -3,18 +3,22 @@
     {%block content %}
 <h2>Place an Order</h2>
 <form method = "Post" action="{{url_for ('order')}}">
+   <div class="input-boxes">
     <label for="name">Name:</label><br>
-    <input type="text" id="name" name="name" required><br>
+    <input type="text" id="name" name="name" class="form-input" required><br>
 
     <label for="contact">Email or Phone#:</label><br>
-    <input type="text" id="contact" name="contact" required><br>
+    <input type="text" id="contact" name="contact" class="form-input" required><br>
 
     <label for="items">Items:</label><br>
-    <input type="text" id="items" name="items" required><br>
+    <input type="text" id="items" name="items" class="form-input" required><br>
   
     <label for="venmo_account">Venmo Account:</label><br>
-    <input type="text" id="venmo_account" name="venmo_account" required><br>
+    <input type="text" id="venmo_account" name="venmo_account" class="form-input" required><br>
+   </div>
 
-    <button type="submit">Submit Order</button><br>
+    <div class="submit-button-wrap">
+        <button class="submit-button" type="submit">Submit Order</button>
+    </div>
 </form>
 {% endblock %}

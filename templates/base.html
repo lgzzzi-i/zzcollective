@@ -10,17 +10,21 @@
     <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
 </head>
 <body>
-    <nav>
-        <a href="{{ url_for ('home') }}">home</a>
-        <a href="{{ url_for ('products') }}">products</a>
-        <a href="{{ url_for ('order') }}">order</a>
-        <a href="{{ url_for ('about') }}">about</a> 
-    </nav>
-    <main>
-        {% block content %}{% endblock %}
-    </main>
-    <footer>
-        <p>&copy; 2026 ZZ Collective</p>
-    </footer>
+    <div class="page-wrapper">
+        <nav>
+            <ul>
+                <li><a href="{{ url_for ('home') }}">home</a></li>
+                <li> <a href="{{ url_for ('products') }}">products</a></li>
+                <li> <a href="{{ url_for ('order') }}">order</a></li>
+                <li><a href="{{ url_for ('about') }}">about</a></li>
+            </ul>
+        </nav>
+        <main>
+            {% block content %}{% endblock %}
+        </main>
+        <footer>
+            <p>&copy; 2026 ZZ Collective</p>
+        </footer>
+    </div>
 </body>
 </html>
