@@ -1,8 +1,8 @@
 Originally coded 2026
 
-**In progress as of:** September 2026
-
 Website for climbing brand producing affordable wooden holds made of scrap wood and other products.
+
+**In progress as of:** September 2026
 
 **Features:** *animated navigation bar, animated buttons, page fading, interactive order form*
 
