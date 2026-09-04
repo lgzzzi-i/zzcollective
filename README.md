@@ -1,8 +1,8 @@
-Originally coded 2026 <br>
+Originally coded 2026 \
 
 Web development, UI, UX
 
-In progress as of: September 2026<br>
+In progress as of: September 2026 \
 
 Website for climbing brand producing affordable wooden holds and other products.
 
