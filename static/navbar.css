@@ -1,22 +1,22 @@
-@font-face {
+/*@font-face {
     font-family:"redactions";
     src: url("fonts/Redaction35-Regular.otf") format("opentype");
 }
 
-.container{
+/*.container{
     background: #183920;
     width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-}
+}*/
 
-nav{
-    background: #183920;
+/*nav{
+    background: #3B4F3C;
     border-radius: 50px;
     padding: 10px;
-    box-shadow: 0 25px 20px -20px rgba(252, 252, 252, 0.4)
+    box-shadow: 0 25px 20px -20px rgba(252, 252, 252, 0.4);
 
 }
 
@@ -24,17 +24,44 @@ nav ul li{
     list-style: none;
     display: inline-block;
     padding: 13px 35px;
-    margin: 10px
+    margin: 10px;
     font-size: 18px;
     font-weight: 500;
-    color: #ddd;
+    color: #D3CDC0;
     cursor: pointer;
-
+    position: relative;
+    z-index: 2;
+    transition: color 0.5s;
 }
 
 nav ul li::after{
     content: '';
+    background: #D3CDC0;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    position: absolute;
+    top: 100%; /*moves the highlighting layer a little lower than the bar on the screen*/
+   /* left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    opacity: 0; /*hides the highlighting layer*/
+    /*/*transition: top 0.5s, opacity 0.5s; /*delays the bottom layer visbility by .5 s*/
+/*}
+nav ul li:hover{
+    color: #3B4F3C;
 }
+
+nav ul li:hover::after{
+    top: 50%;
+     opacity: 1;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
 /*
 nav {
   display: flex;
