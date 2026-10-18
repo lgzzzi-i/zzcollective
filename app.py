@@ -11,7 +11,7 @@ def build_venmo_link(order_id, amount):
            f"&recipients={VENMO_USERNAME}&amount={amount:.2f}&note={note}"
        )
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder="docs")
 @app.route('/')
 def home():
     return render_template("home.html")
@@ -77,4 +77,3 @@ def confirmation(order_id):
 if __name__== "__main__":
     init_db()
     app.run(debug=True)
-
