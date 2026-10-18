@@ -382,3 +382,45 @@ main {
     opacity: 1;
   }
 }
+
+@media (max-width: 600px) {
+  body {
+    padding: 1rem;
+  }
+
+  nav {
+    width: auto;
+    left: auto;
+    transform: none;
+    padding: 0.4rem;
+  }
+
+  nav ul {
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  nav ul li {
+    padding: 5px 8px;
+    margin: 2px;
+  }
+
+  .side-by-side {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  p1,
+  p2 {
+    width: auto;
+  }
+
+  .bw-image {
+    max-width: 100%;
+  }
+
+  .photo-overlap {
+    left: 0;
+    margin-left: 120px;
+  }
+}

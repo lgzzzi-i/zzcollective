@@ -1,26 +1,34 @@
 <!DOCTYPE html>
-<html lang="eng">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}ZZ Collective{% endblock %}</title>
+    <meta name="description" content="Affordable wooden climbing holds made from scrap wood.">
+    <title>ZZ Collective</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+    <link rel="stylesheet" href="./static/style.css">
 </head>
 <body>
     <div class="page-wrapper">
-        <nav>
+        <nav aria-label="Main navigation">
             <ul>
-                <li><a href="{{ url_for ('home') }}">home</a></li>
-                <li> <a href="{{ url_for ('products') }}">products</a></li>
-                <li> <a href="{{ url_for ('order') }}">order</a></li>
-                <li><a href="{{ url_for ('about') }}">about</a></li>
+                <li><a href="./index.html" aria-current="page">home</a></li>
+                <li><a href="./products.html">products</a></li>
+                <li><a href="./order.html">order</a></li>
+                <li><a href="./about.html">about</a></li>
             </ul>
         </nav>
         <main>
-            {% block content %}{% endblock %}
+            <h1>ZZ Collective</h1>
+            <div class="side-by-side">
+                <p2>Wooden climbing holds with fine sanding and a finer price.</p2>
+                <img src="./static/images/bwholds.jpeg" alt="Handmade wooden climbing holds" class="bw-image">
+            </div>
+            <div class="explore-button-wrap">
+                <a href="./products.html" class="explore-button">explore our holds</a>
+            </div>
         </main>
         <footer>
             <p>&copy; 2026 ZZ Collective</p>
