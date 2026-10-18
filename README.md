@@ -12,5 +12,5 @@ Website for climbing brand producing affordable wooden holds made of scrap wood 
 * item cart
 * brand logo
 
-Check out the link here! 
-https://zzcollective.onrender.com
+[Check out the link here! 
+](https://lgzzzi-i.github.io/zzcollective/index.html)
